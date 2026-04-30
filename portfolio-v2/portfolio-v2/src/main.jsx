@@ -20,7 +20,7 @@ import Home from './views/Home.jsx';
 import Experiences from './views/Experiences.jsx';
 import Projects from './views/Projects.jsx';
 import About from './views/About.jsx';
-import ContactForm from './views/ContactForm.jsx';
+import Contact from './views/Contact.jsx';
 import NotFound from './views/NotFound.jsx';
 
 const router = createBrowserRouter(
@@ -30,7 +30,7 @@ const router = createBrowserRouter(
        <Route path="experiences" element={<Experiences />} />
       <Route path="projects" element={<Projects />} />
       <Route path="about" element={<About />} />
-      <Route path="contactForm" element={<ContactForm />} />
+      <Route path="contactForm" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
       
     </Route>
