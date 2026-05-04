@@ -22,8 +22,12 @@ function Experiences() {
                 <time class="bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded">March 21st 2026</time>
                 <h3 class="text-lg font-semibold text-heading my-2">PaceField | Software Developer </h3>
                 </div>
+                
                 </li>
             </ol>
+
+           
+           
         
 
         

@@ -15,7 +15,7 @@ import {
 
 import App from './App.jsx'
 
-
+import AppLayout from './views/AppLayout.jsx';
 import Home from './views/Home.jsx';
 import Experiences from './views/Experiences.jsx';
 import Projects from './views/Projects.jsx';
@@ -25,7 +25,8 @@ import NotFound from './views/NotFound.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
+
+    <Route element={<AppLayout/>}>
       <Route index element={<Home />} />
        <Route path="experiences" element={<Experiences />} />
       <Route path="projects" element={<Projects />} />
@@ -37,8 +38,8 @@ const router = createBrowserRouter(
   )
 );
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
+    <RouterProvider router={router} />
+  </StrictMode>
 )

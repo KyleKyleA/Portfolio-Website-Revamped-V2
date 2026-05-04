@@ -14,8 +14,8 @@
 
 import ContactForm from "./components/ContactForm.jsx";
 import React from 'react';
-
-
+import NavBar from "./components/NavBar.jsx";
+import AppLayout from "./views/AppLayout.jsx";
 import { Route, Routes } from "react-router-dom";
 import Home from './views/Home.jsx';
 import Experiences from './views/Experiences.jsx';
