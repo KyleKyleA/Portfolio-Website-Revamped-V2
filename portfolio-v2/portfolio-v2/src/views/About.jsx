@@ -3,7 +3,30 @@
 // Date-Written: 4/29/26
 // Description: This file will render in the about me section for the users to view 
 // about myself and what i do.
+import { Card, CardContent, CardHeader, CardTitle } from "../components/Card.jsx";
 
+const skills = [
+
+    {
+        title: "Frontend",
+        description: 
+            "Built responsive UI's using React, TailWindCSS, and Javascript" +
+            "including small project to medium scaled projects and component based layouts.",
+    },
+    {
+        title: "Backend",
+        description: " Written backend logic in Java, Python, C#, PHP, and Javascript" + " building short api's, handling business logic, and working with rest APIs.",
+    },
+    {
+        title: "Database",
+        description: "MySQL, PSQL, AuroraDB(AWS) - building database schema's, writing queries, and working with different database management systems to store and retrieve data for applications.",
+    },
+    {
+        title: "Tools",
+        description: "Git, Github, GitLab, AWS, Docker, Vercel - version control and deployment tools to manage codebases and deploy applications."
+    },
+
+]
 
 function About() {
 
@@ -11,7 +34,7 @@ function About() {
     return(
 
 
-        <div className="max-w-3xl mx-auto px-6 pt-16 pb-16">
+        <div className="max-w-5xl mx-auto px-6 pt-16 pb-16">
         
         
         {/* Heading */}
@@ -21,41 +44,29 @@ function About() {
             passionate about building projects and functional software across the full stack.
         </p>
         
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
-            
-                {/* Frontend */}
-                <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">FrontEnd </h5>
-                <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
-                    Built responsive UI's using React, TailWindCSS, and Javascript - including
-                    small project to medium scaled projects, and component-based layouts.
-                </p>
-        
-
-                {/* Backend */}
-                <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Backend </h5>
-                <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
-                   Written backend logic in Java, Python, C#, PHP, and Javascript
-                   building short api's, handling business logic, and working with rest APIs.
-                </p>
-           
 
 
-                {/* Databases */}
-                <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Database </h5>
-                <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
-                    MySQL, PSQL, AuroraDB(AWS) - building database schema's, writing queries, and working with different database management systems to store and retrieve data for applications.
-                </p>
+      
 
+       
+     {/* Skills Grid */}
+      <div className="grid grid-cols-2 gap-6">
+        {skills.map((skill) => (
+          <Card key={skill.title}>
+            <CardHeader>
+              <CardTitle>{skill.title}</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-gray-400 text-base leading-relaxed">
+                {skill.description}
+              </p>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
 
-                {/* Tools */}
-                <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Tools </h5>
-                <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
-                    Git, Github, GitLab, AWS, Docker, Vercel - version control and deployment tools to manage codebases and deploy applications.
-                </p>
-          
-            </div>
-        </div>
-);
+    </div>
+  )
 }
 
 

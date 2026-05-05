@@ -12,6 +12,7 @@
 // Projects whether it's class projects or personal projects
 // Home -> Intro
 
+import Card from "./components/Card.jsx";
 import ContactForm from "./components/ContactForm.jsx";
 import React from 'react';
 import NavBar from "./components/NavBar.jsx";
@@ -64,6 +65,16 @@ function App() {
   return (
     <>
       <SimpleErrorBoundary>
+        <Routes>
+        <Route element={<AppLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/experiences" element={<Experiences />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
 
       </SimpleErrorBoundary>
 
