@@ -23,6 +23,7 @@ function About() {
         
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
             
+                {/* Frontend */}
                 <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">FrontEnd </h5>
                 <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
                     Built responsive UI's using React, TailWindCSS, and Javascript - including
@@ -30,21 +31,28 @@ function About() {
                 </p>
         
 
-            <a href="#" class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs hover:bg-neutral-secondary-medium">
+                {/* Backend */}
                 <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Backend </h5>
                 <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
                    Written backend logic in Java, Python, C#, PHP, and Javascript
                    building short api's, handling business logic, and working with rest APIs.
                 </p>
-            </a>
+           
 
 
-             <a href="#" class="bg-neutral-primary-soft block max-w-sm p-6 border border-default rounded-base shadow-xs hover:bg-neutral-secondary-medium">
+                {/* Databases */}
                 <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Database </h5>
                 <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
-                    
+                    MySQL, PSQL, AuroraDB(AWS) - building database schema's, writing queries, and working with different database management systems to store and retrieve data for applications.
                 </p>
-            </a>
+
+
+                {/* Tools */}
+                <h5 class="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8">Tools </h5>
+                <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
+                    Git, Github, GitLab, AWS, Docker, Vercel - version control and deployment tools to manage codebases and deploy applications.
+                </p>
+          
             </div>
         </div>
 );
