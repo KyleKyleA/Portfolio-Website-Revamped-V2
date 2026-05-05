@@ -38,8 +38,8 @@ function About() {
         
         
         {/* Heading */}
-        <h2 className="text-4xl font-medium text-white mb-4">About me</h2>
-        <p className="text-gray-400 text-lg leading-relaxed mb-12 max-w-xl">
+        <h2 className="text-4xl font-medium text-white mb-4-centered">About me</h2>
+        <p className="text-gray-400 text-lg leading-relaxed mb-12 max-w-xl-centered">
             Hi, I'm a computer Programming and Analysis student at Durham College
             passionate about building projects and functional software across the full stack.
         </p>

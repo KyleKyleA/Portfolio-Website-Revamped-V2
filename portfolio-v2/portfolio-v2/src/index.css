@@ -1,6 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+}
 
 :root {
   --text: #6b6375;
@@ -23,7 +27,6 @@
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
-  background: var(--bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -68,6 +71,7 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  background: transparent;
 }
 
 h1,

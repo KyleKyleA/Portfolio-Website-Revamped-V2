@@ -1,3 +1,4 @@
+import ShaderBackground from "@/components/shader-background";
 import NavBar from "../components/NavBar";
 import { Outlet } from "react-router-dom";
 
@@ -12,6 +13,7 @@ function AppLayout() {
 
 
         <NavBar />
+        <ShaderBackground />
 
 
         <main className="w-full">

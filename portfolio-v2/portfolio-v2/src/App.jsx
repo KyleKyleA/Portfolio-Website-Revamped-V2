@@ -25,6 +25,7 @@ import About from './views/About.jsx';
 import Contact from './views/Contact.jsx';
 import NotFound from './views/NotFound.jsx'
 
+import ShaderBackground from "./components/shader-background.jsx";
 
 class SimpleErrorBoundary extends React.Component {
   constructor(props) {
@@ -64,7 +65,9 @@ function App() {
 
   return (
     <>
+      <ShaderBackground />
       <SimpleErrorBoundary>
+        
         <Routes>
         <Route element={<AppLayout />}>
           <Route path="/" element={<Home />} />

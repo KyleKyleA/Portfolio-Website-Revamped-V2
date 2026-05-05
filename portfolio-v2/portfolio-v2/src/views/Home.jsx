@@ -20,9 +20,8 @@ function Home () {
                 Kyle Angeles
            </h1>
 
-           <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl">
-                Incoming 3rd year Computer Programming and Analysis at Durham College
-                building class and personal projects and gaining real world experience across
+           <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl text-center">
+                Incoming 3rd year Computer Programming and Analysis at Durham College building class and personal projects and gaining real world experience across
                 different frameworks and industries
 
            </p>
