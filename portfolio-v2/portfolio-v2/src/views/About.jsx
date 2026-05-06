@@ -25,6 +25,15 @@ const skills = [
         title: "Tools",
         description: "Git, Github, GitLab, AWS, Docker, Vercel - version control and deployment tools to manage codebases and deploy applications."
     },
+    {
+      title: "Design tools",
+      description: "Figma, Adobe, Canva - used for designing UI's and creating mockup sketches for projects and applications"
+    },
+    {
+      title: "intergrated development environments",
+      description: "Visual Studio Code, Intellij, Visual Studio - used for writing and managing code across different languages and frameworks for" +
+      "building projects and applications."
+    }
 
 ]
 
