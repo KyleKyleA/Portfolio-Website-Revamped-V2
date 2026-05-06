@@ -26,7 +26,7 @@ function NavBar() {
                     <NavLink className={linkClass} to ="/projects">
                         Projects
                     </NavLink>
-                    <NavLink className={linkClass} to ="/contactForm">
+                    <NavLink className={linkClass} to ="/contact">
                         Contact
                     </NavLink>
                 </ul>

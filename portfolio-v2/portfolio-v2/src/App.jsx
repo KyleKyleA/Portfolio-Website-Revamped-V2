@@ -13,7 +13,6 @@
 // Home -> Intro
 
 import Card from "./components/Card.jsx";
-import ContactForm from "./components/ContactForm.jsx";
 import React from 'react';
 import NavBar from "./components/NavBar.jsx";
 import AppLayout from "./views/AppLayout.jsx";
@@ -24,6 +23,7 @@ import Projects from './views/Projects.jsx';
 import About from './views/About.jsx';
 import Contact from './views/Contact.jsx';
 import NotFound from './views/NotFound.jsx'
+import ContactForm from "./components/ContactForm.jsx";
 
 import ShaderBackground from "./components/shader-background.jsx";
 

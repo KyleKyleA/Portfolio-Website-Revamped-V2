@@ -4,25 +4,31 @@
 // Description: This will house the contactForm Route.
 
 import {useNavigate} from "react-router-dom";
+import ContactForm from "../components/ContactForm.jsx";
 
-function ContactForm () {
+function Contact() {
     const navigate = useNavigate();
 
+
+    // Implement success to somewhere else either email or localstorage
     const handleSuccess = () => {
-        navigate("/contactForm")
+        navigate("/contact")
     };
 
 
     return (
 
         <>
-           <h2 className="mb-4 text-4xl font-bold tracking-tight text-heading md:text-5xl lg:text-6x">
-                Contact me
-           </h2>
+
+
+           <ContactForm onSuccess={handleSuccess} />
+           
+
+          
         
         </>
     );
 
 }
 
-export default ContactForm;
+export default Contact;
