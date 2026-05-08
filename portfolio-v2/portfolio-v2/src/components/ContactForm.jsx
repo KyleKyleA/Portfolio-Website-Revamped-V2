@@ -5,6 +5,20 @@
 // Used most of old code and updating the styling for the form and adding the backend part in the coming days
 import {useState} from "react";
 import validator from "validator";
+import LinkedInIcon from "../images/InBug-White.png";
+import GitHubIcon from "../images/GitHub_Invertocat_White_Clearspace.png";
+import { Card, CardContent, CardHeader, CardTitle } from "../components/Card.jsx";
+
+
+const email = [
+    {
+        title: "Email",
+        description: "You can reach me at my email address:",
+        email: "kyleangeles2006@gmail.com"
+    }
+]
+   
+    
 
 
 function ContactForm({onSuccess}) {
@@ -118,9 +132,38 @@ function ContactForm({onSuccess}) {
             </div>
         
             <button type="submit" className="mt-5 bg-indigo-600 text-white h-12 w-32 px-4 rounded active:scale-95 transition">Send Message</button>
+            <br></br>
         </form>
           
-          {/* Social links */}
+        
+          {/* Card for email */}
+          <div className="flex justify-center mt-6 ">
+            {email.map((contact) => (
+              <div key={contact.id} className="bg-white/20 backdrop-blur-lg rounded shadow text-center p-4">
+                <p className="text-lg font-medium">{contact.description}</p>
+                <p className="text-white">{contact.email}</p>
+              </div>
+            ))}
+          </div>
+
+        {/* Social links */}
+
+          <div className="contact-social mt-12 text-center">
+            <p className="text-lg text-blue-600 font-medium pt-8">Or reach out to me on social media</p>
+            <div className="flex items-center justify-center gap-4 mt-4">
+               <a href="https://www.linkedin.com/in/kyle-angeles-b07ba7315/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-800 transition">
+                <img src={LinkedInIcon} alt="LinkedIn" className="w-20 h-20">
+                </img>
+            </a>
+            <div className="flex items-center gap-2 mt-4"> 
+                <a href="https://github.com/KyleKyleA" target="_blank" rel="noopener noreferrer" className="text-grey-600 hover:text-gray-800 transition">
+                    <img src={GitHubIcon} alt="GitHub" className="w-20 h-20">
+                    </img>
+                </a>
+            </div>
+               
+            </div>
+          </div>
         </div>
 
       
@@ -128,6 +171,8 @@ function ContactForm({onSuccess}) {
 
         
     )
+
+    
 
     
 };
