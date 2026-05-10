@@ -3,6 +3,7 @@
 // Date-Written: 4/29/26
 // This section of the website will house my work experience that i currently have so far.
 
+// REGION FUNCTION
 function Experiences() {
 
 
@@ -21,7 +22,7 @@ function Experiences() {
                 <div className="hidden sm:flex w-full bg-neutral-quaternary h-px"></div>
                 </div>
                 <div className="mt-3 sm:pe-8 text-center">
-                <time className="bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded-centered justify-content">March 21st 2026</time>
+                <time className="bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded-centered justify-content">Current March 21st 2026</time>
                 <h3 className="text-lg font-semibold text-heading my-2  ">PaceField | Software Developer </h3>
                 </div>
                 
@@ -36,5 +37,8 @@ function Experiences() {
         </>
     )
 }
+// END REGION FUNCTION
 
+// REGION EXPORT
 export default Experiences;
+// END REGION EXPORT

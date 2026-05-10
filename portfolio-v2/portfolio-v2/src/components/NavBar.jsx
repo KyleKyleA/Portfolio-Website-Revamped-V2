@@ -3,8 +3,11 @@
 // Date-Written: 4/29/26
 // This component will handle the navigation throughout the website.
 
+// REGION IMPORT LIBRARY
 import {Link, NavLink } from "react-router-dom";
+// END REGION IMPORT LIBRARY 
 
+// REGION FUNCTION
 function NavBar() {
 
     const linkClass = ({isActive}) => 
@@ -34,4 +37,9 @@ function NavBar() {
         </nav>
     )  
 }
+
+// END REGION FUNCTION
+
+// REGION EXPORT
 export default NavBar;
+// END REGION EXPORT

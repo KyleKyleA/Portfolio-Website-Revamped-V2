@@ -1,6 +1,9 @@
 // Author: Kyle Angeles 
 // File: Main.jsx
 // Date: 4/29/26
+// Description: This manages and renders the entire application and loads my projects data as a i keep adding project it reduces the amount of design and code i  have to do
+
+// REGION IMPORTS
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css'
@@ -25,7 +28,9 @@ import NotFound from './views/NotFound.jsx';
 
 
 import { projectLoader } from './utils/projectLoader';
+// END REGION IMPORTS
 
+// REGION FUNCTION
 const router = createBrowserRouter(
   createRoutesFromElements(
 
@@ -46,3 +51,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} /> 
   </React.StrictMode>
 )
+// END REGION FUNCTION

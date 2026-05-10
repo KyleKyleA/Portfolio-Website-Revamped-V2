@@ -1,9 +1,11 @@
+// IMPORTED COMPONENTS
 import ShaderBackground from "@/components/shader-background";
 import NavBar from "../components/NavBar";
 import { Outlet } from "react-router-dom";
 import Pagination from "../components/Pagination";
+// END REGION COMPONENTS
 
-
+// REGION FUNCTION
 function AppLayout() {
     return (
         <div className="min-h-screen w-full flex flex-col relative">
@@ -26,5 +28,8 @@ function AppLayout() {
     )
     
 }
+// END REGION FUNCTION
 
+// REGION EXPORT
 export default AppLayout;
+// END REGION EXPORT

@@ -4,10 +4,14 @@
 // Description: This component will be used to create flip card animations for the projects section of the website,
 // this will be used to display the project title and description on the front of the card and the project details on the back of the card, this will be a reusable component that can be used for all projects in the projects section of the website.
 // since this is a way of adding more projects to the projects.
+
+// REGION IMPORT COMPONENTS / LIBRARIES
 import { projectLoader } from "../utils/projectLoader";
 import { useState, useEffect } from "react";
+// END REGION IMPORT COMPONENTS / LIBRARIES
 
-import { WrenchScrewdriverIcon } from "@heroicons/react/24/outline";
+
+// REGION CONST
 const FlipCardComponent = () => {
 
     const [projects, setProjects]  = useState([]);
@@ -64,5 +68,10 @@ const FlipCardComponent = () => {
         </section>
     );
 };
+// END REGION CONST
+
+// REGION EXPORT
 
 export default FlipCardComponent;
+
+// END REGION EXPORT

@@ -3,9 +3,12 @@
 // Date-Written: 4/29/26
 // Description: This section of the website will house my personal projects and class projects.
 
+// REGION IMPORTED COMPONENTS
 import FlipCardComponent from "@/components/FlipCard";
+// END REGION COMPONENTS
 
 
+// REGION FUNCTION
 function Projects() {
 
 
@@ -24,5 +27,10 @@ function Projects() {
             </>
     )
 }
+// END REGION FUNCTION
+
+// REGION EXPORT
 
 export default Projects;
+
+// END REGION EXPORT

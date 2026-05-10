@@ -27,6 +27,7 @@ import ContactForm from "./components/ContactForm.jsx";
 
 import ShaderBackground from "./components/shader-background.jsx";
 
+// REGION CLASS
 class SimpleErrorBoundary extends React.Component {
   constructor(props) {
       super(props)
@@ -60,7 +61,9 @@ class SimpleErrorBoundary extends React.Component {
   }
 }
 
+// END REGION CLASS
 
+// REGION FUNCTION
 function App() {
 
   return (
@@ -76,4 +79,10 @@ function App() {
   );
 }
 
+// END REGION FUNCTION
+
+// REGION EXPORT
+
 export default App
+
+// END REGION EXPORT

@@ -1,3 +1,4 @@
+// REGION FUNCTION
 export async function projectLoader() {
 
     try {
@@ -21,3 +22,4 @@ export async function projectLoader() {
 
     }
 }
+// END REGION FUNCTION

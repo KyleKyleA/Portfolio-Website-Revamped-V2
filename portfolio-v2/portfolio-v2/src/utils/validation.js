@@ -1,5 +1,7 @@
+// REGION  LIBRARY
 import validator from 'validator';
-
+// END REGION LIBRARY
+// REGION HELPERS
 export const validateRequired = (field, value) => {
     if (!value.trim()) {
         return `${field.charAt(0).toUpperCase() + field.slice(1)} is required`;
@@ -27,3 +29,4 @@ export const getErrorMessages = (errors) => {
     .map(([field, msg]) =>`${field}: ${msg}`)
     return messages.join('\n');
 }
+// END REGION HELPERS

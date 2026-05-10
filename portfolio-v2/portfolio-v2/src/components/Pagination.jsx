@@ -3,8 +3,12 @@
 // Date-Written: 5/10/26
 // Description: This component will handle pagination throughout the website so it's easier for the user to navigate through the pages
 // without relying on the navbar all the time
-import { useNavigate, useLocation } from "react-router-dom";
 
+// REGION IMPORT LIBRARY
+import { useNavigate, useLocation } from "react-router-dom";
+// END REGION IMPORT LIBRARY
+
+// REGION CONST
 const pages = [
 
     {path: "/", label: "Home" },
@@ -13,6 +17,9 @@ const pages = [
     {path: "/projects", label: "Projects" },
     {path: "/contact", label: "Contact" }
 ]
+// END REGION CONST 
+
+// REGION FUNCTION
 function Pagination() {
 
         const navigate = useNavigate();
@@ -30,7 +37,8 @@ function Pagination() {
             <button 
             onClick={() => navigate(pages[currentIndex - 1].path)}
             disabled={isFirst}
-            className="rounded-md ml-auto py-1 pl-2 pr-7 !no-underline font-sans text-white-900 hover:text-gray-1000 fill-gray-900 hover:fill-gray-1000 duration-150"
+            className="rounded-md py-1 px-4 text-white bg-white/10 hover:bg-white/20
+                   disabled:opacity-30 disabled:cursor-not-allowed duration-150"
             >
                 ← Previous
             </button>
@@ -42,7 +50,8 @@ function Pagination() {
             <button 
             onClick={() => navigate(pages[currentIndex + 1].path)}
             disabled={isLast}
-            className="rounded-md ml-auto py-1 pl-2 pr-7 !no-underline font-sans text-white-900 hover:text-gray-1000 fill-gray-900 hover:fill-gray-1000 duration-150">
+            className="rounded-md py-1 px-4 text-white bg-white/10 hover:bg-white/20
+                   disabled:opacity-30 disabled:cursor-not-allowed duration-150">
               → Next  
             </button>
         </nav>
@@ -53,4 +62,10 @@ function Pagination() {
 
 
 }
+
+// END REGION FUNCTION
+
+// REGION EXPORT
 export default Pagination;
+
+// END REGION EXPORT

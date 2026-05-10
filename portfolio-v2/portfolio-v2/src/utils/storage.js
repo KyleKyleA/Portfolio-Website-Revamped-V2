@@ -2,6 +2,7 @@
 // File: storage.js
 // Description: Helper to send to localstorage 
 
+// REGION HELPERS
 export function saveFormDraft() {
     const storage = useSession ? sessionStorage : localStorage;
 
@@ -29,4 +30,4 @@ export function clearFormDraft() {
     const storage = useSession ? sessionStorage : localStorage;
     storage.removeItem('formDraft');
 }
-
+// REGION HELPERS

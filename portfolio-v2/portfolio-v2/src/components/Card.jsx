@@ -1,6 +1,9 @@
+// REGION LIBRARIES
 import { Children } from "react";
 import { useNavigate } from "react-router-dom";
+// END REGION LIBRARIES
 
+// REGION FUNCTIONS
 export function CardTitle({children}) {
     return (
         <h3 className="text-white text-xl font-semibold mb-2 text-left">
@@ -58,6 +61,10 @@ export function SkillsCard({title, description, link}) {
         </div>
     )
 }
+// END REGION FUNCTION
 
+// REGION EXPORT
 
 export default Card; 
+
+// END REGION EXPORT

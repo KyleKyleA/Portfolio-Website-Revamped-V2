@@ -3,11 +3,15 @@
 // Date-Written: 4/29/26
 // Description: This component will handle the contact form for the contact page, this will be a static form for now but I will be implementing the backend functionality for this form in the future.
 // Used most of old code and updating the styling for the form and adding the backend part in the coming days
+
+// REGION COMPONENTS
 import {useState} from "react";
 import validator from "validator";
 import LinkedInIcon from "../images/InBug-White.png";
 import GitHubIcon from "../images/GitHub_Invertocat_White_Clearspace.png";
 import { Card, CardContent, CardHeader, CardTitle } from "../components/Card.jsx";
+// END REGION COMPONENTS
+
 
 
 const email = [
@@ -20,7 +24,7 @@ const email = [
    
     
 
-
+// REGION FUNCTION
 function ContactForm({onSuccess}) {
 
     const [formData, setFormData] = useState({
@@ -176,6 +180,7 @@ function ContactForm({onSuccess}) {
 
     
 };
+// END REGION FUNCTION
 
 
 

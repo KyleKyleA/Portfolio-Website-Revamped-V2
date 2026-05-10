@@ -3,6 +3,7 @@
 // Date-Written: 4/29/26
 // File: This section would display a 404 page if the user ran into any issues navigating throughout the website.
 
+// REGION FUNCTION
 function NotFound() {
 
 
@@ -34,5 +35,8 @@ function NotFound() {
 
     )
 }
+// END REGION FUNCTION
 
+// REGION EXPORT
 export default NotFound;
+// END REGION EXPORT
