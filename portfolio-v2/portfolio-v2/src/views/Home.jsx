@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 function Home () {
 
     const navigate = useNavigate();
-
+ 
     return (
 
         <div className="max-w-3xl mx-auto px-6 pt-24 pb-16 text-center">
@@ -24,11 +24,13 @@ function Home () {
                 Incoming 3rd year Computer Programming and Analysis at Durham College building class and personal projects and gaining real world experience across different frameworks and industries
 
            </p>
+           
         </div>
+        
+
     )
 
-    // Thinking of adding like a scroll view or pagination to the next page of the web page.
-    // TODO: Pagniation Implement in the components file
+    
 
 
 }
