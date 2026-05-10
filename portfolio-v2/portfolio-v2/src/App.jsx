@@ -65,19 +65,9 @@ function App() {
 
   return (
     <>
-      <ShaderBackground />
+   
       <SimpleErrorBoundary>
         
-        <Routes>
-        <Route element={<AppLayout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/experiences" element={<Experiences />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
 
       </SimpleErrorBoundary>
 

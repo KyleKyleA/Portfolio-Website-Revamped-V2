@@ -17,6 +17,7 @@ export const validateEmail = (email) => {
     }
         return null; // if everything seems right in the form process 
             // if not return a error
+}
 
 
             
@@ -25,5 +26,4 @@ export const getErrorMessages = (errors) => {
     .filter(([, msg]) => msg)
     .map(([field, msg]) =>`${field}: ${msg}`)
     return messages.join('\n');
-}
 }

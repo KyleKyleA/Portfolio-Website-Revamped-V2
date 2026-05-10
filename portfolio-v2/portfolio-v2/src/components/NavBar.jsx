@@ -11,9 +11,9 @@ function NavBar() {
         `nav-link ${isActive? 'active fw-bold text-primary': ''}`
 
     return (
-        <nav className="bg-gray-900 border-b border-gray-700">
-            <div className="max-w-5xl mx-auto px-6 flex items-center justify-between h-16">
-                <ul className="flex items-center gap-1 list-none m-0 p-0">
+        <nav className="w-fullbg-gray-900 border-b border-gray-700">
+            <div className="w-full px-6 flex items-center h-16 right-100">
+                <ul className="flex items-center gap-4 list-none m-0 p-0">
                     <NavLink className={linkClass} to ="/">
                     Home
                     </NavLink>
