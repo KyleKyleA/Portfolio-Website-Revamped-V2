@@ -116,7 +116,7 @@ function ContactForm({onSuccess}) {
         
         <div className="contact-form-container">
            <form className="flex flex-col items-center text-sm">
-            <p className="text-lg text-blue-600 font-medium pb-2">Contact Us</p>
+            <p className="text-lg text-blue-600 font-medium pb-2 pt-24">Contact Us</p>
 
             {/* Contact Form */}
             <div className="flex flex-col md:flex-row items-center gap-8 w-[350px] md:w-[700px]">

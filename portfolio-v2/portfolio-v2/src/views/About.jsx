@@ -42,15 +42,20 @@ function About() {
     return(
 
 
-        <div className="max-w-5xl mx-auto px-6 pt-16 pb-16">
+        <div className="max-w-5xl mx-auto px-6 pt-24 pb-16">
         
         
         {/* Heading */}
-        <h2 className="text-4xl font-medium text-white mb-4-centered">About me</h2>
-        <p className="text-gray-400 text-lg leading-relaxed mb-12 max-w-xl-centered">
+        <h2 className="text-white-400 text-center">About me</h2>
+        <p className="text-gray-400 text-center">
             Hi, I'm a computer Programming and Analysis student at Durham College
-            passionate about building projects and functional software across the full stack.
+            passionate about building projects and functional software across the full stack. 
+            <br/>
+            Experienced in many different tools and languages that I've used in the past few months:
+            <br/>
         </p>
+       
+      
         
 
 

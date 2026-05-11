@@ -9,7 +9,7 @@ function Experiences() {
 
     return (
         <>
-            <h2 className="mb-4 text-4xl font-bold tracking-tight text-heading md:text-5xl lg:text-6xl text-center">Experiences</h2>
+            <h2 className="mb-4 text-4xl font-bold tracking-tight text-heading md:text-5xl lg:text-6xl text-center pt-24">Experiences</h2>
 
             <ol className="items-center justify-center sm:flex">
                 <li className="relative mb-6 sm:mb-0">
