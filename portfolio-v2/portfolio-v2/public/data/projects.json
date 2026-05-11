@@ -8,24 +8,24 @@
     },
     {
         "id": 2,
-        "image": "",
+        "image": "/public/Recipe.png",
         "title": "Class project - Recipe Application",
         "Description": "A recipe application built with React, Node.js, and deployment on Vercel.The application allows the user to search for recipes, view details, and save their favorite recipes.",
-        "GitHub link": ""
+        "GitHub link": "https://github.com/KyleKyleA/a1-a4-assignment-recipebook"
     },
     {
         "id": 3,
-        "image": "",
+        "image": "/public/Vehicle.png",
         "title": "Class project - Vehicle Management System",
         "Description": "Vehicle management system built with C# and .NET framework and data storage with JSON. The application allows users to manage their vehicles, including adding, editing, and deleting vehicle information.",
-        "GitHub link": ""
+        "GitHub link": "https://github.com/KyleKyleA/Vehicle-List-Management" 
     },
     {
         "id": 4,
-        "image": "",
+        "image": "/public/Pokemon-Pocket-Battles.png",
         "title": "Class Project - Pokemon Pocket Battles",
-        "Description": "Pokemon card inspired game built using C#, .NET framework, JSON for data storage, and game engine Unity. The game allows players to battle against each other using their Pokemon card decks on a game board with different actions and effects. using concepts such as object-oriented-programming and different design patterns.",
-        "GitHub link": ""
+        "Description": "Pokemon card inspired game built using C#, .NET framework, JSON for data storage, and game engine Unity. The game allows players to battle against each other using their Pokemon card decks on a game board with different actions and effects.",
+        "GitHub link": "https://github.com/KyleKyleA/OOP3-Project-Pokemon-Pocket-Battles"
     }
 
 

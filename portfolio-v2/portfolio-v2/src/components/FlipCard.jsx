@@ -43,7 +43,7 @@ const FlipCardComponent = () => {
                                 
                             />
                             )}
-                            <p className="md:my-6 text-md">{project.title}</p>
+                            <p className="md:my-6 text-md justify-center">{project.title}</p>
                             </div>
                              <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
                             <div className="flex min-h-full flex-col items-center justify-center">

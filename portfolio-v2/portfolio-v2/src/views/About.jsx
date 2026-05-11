@@ -10,8 +10,7 @@ const skills = [
     {
         title: "Frontend",
         description: 
-            "Built responsive UI's using React, TailWindCSS, and Javascript" +
-            "including small project to medium scaled projects and component based layouts.",
+            "Built responsive UI's using React, TailWindCSS, and Javascript " + " including small project to medium scaled projects and component based layouts.",
     },
     {
         title: "Backend",

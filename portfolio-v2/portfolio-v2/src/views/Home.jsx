@@ -20,11 +20,26 @@ function Home () {
                 Kyle Angeles
            </h1>
 
-           <p className="text-lg text-gray-400 leading-relaxed mb-8 max-w-xl text-center mx-auto">
-                Incoming 3rd year Computer Programming and Analysis at Durham College building class and personal projects and gaining real world experience across different frameworks and industries
-
+           <p className="font-sans text-center text-white ">
+                Incoming 3rd year Computer Programming and Analysis at Durham College
            </p>
-           
+
+           <p className="font-sans text-center text-white">
+               building class and personal projects and gaining real world experience across different frameworks and industries.
+     
+          </p> 
+
+          
+
+          < div className="mx-auto mt-8 max-w-sm p-6 border border-white/20 rounded-lg bg-white/5 backdrop-blur-sm">
+          <p className="text-body mb-6 sm text-center">
+               explore portfolio 
+          </p>
+          <p className="text-body mb-6 text-sm text-center">
+               by pressing next or clicking on navigation bar!!
+          </p>
+
+          </div>
         </div>
         
 
