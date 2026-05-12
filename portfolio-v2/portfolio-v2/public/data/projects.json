@@ -15,14 +15,14 @@
     },
     {
         "id": 3,
-        "image": "/public/Vehicle.png",
+        "image": "/Vehicle.png",
         "title": "Class project - Vehicle Management System",
         "Description": "Vehicle management system built with C# and .NET framework and data storage with JSON. The application allows users to manage their vehicles, including adding, editing, and deleting vehicle information.",
         "GitHub link": "https://github.com/KyleKyleA/Vehicle-List-Management" 
     },
     {
         "id": 4,
-        "image": "/public/Pokemon-Pocket-Battles.png",
+        "image": "/Pokemon-Pocket-Battles.png",
         "title": "Class Project - Pokemon Pocket Battles",
         "Description": "Pokemon card inspired game built using C#, .NET framework, JSON for data storage, and game engine Unity. The game allows players to battle against each other using their Pokemon card decks on a game board with different actions and effects.",
         "GitHub link": "https://github.com/KyleKyleA/OOP3-Project-Pokemon-Pocket-Battles"
