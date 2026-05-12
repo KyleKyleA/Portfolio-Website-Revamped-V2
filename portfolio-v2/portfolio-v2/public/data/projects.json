@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "image": "/public/KA.png",
+        "image": "/KA.png",
         "title": "Personal Portfolio Website",
         "Description": "An improved version of my personal portfolio website, showcasing projects and skills with a modern design with React Vite and TailWindCSS and templates from FlowBite and 21st Dev Community for most of the styling.",
         "GitHub link": "https://github.com/KyleKyleA/Portfolio-Website-Revamped-V2"
     },
     {
         "id": 2,
-        "image": "/public/Recipe.png",
+        "image": "/Recipe.png",
         "title": "Class project - Recipe Application",
         "Description": "A recipe application built with React, Node.js, and deployment on Vercel.The application allows the user to search for recipes, view details, and save their favorite recipes.",
         "GitHub link": "https://github.com/KyleKyleA/a1-a4-assignment-recipebook"
