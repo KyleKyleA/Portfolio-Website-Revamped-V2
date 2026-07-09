@@ -32,6 +32,10 @@ const skills = [
       title: "intergrated development environments",
       description: "Visual Studio Code, Intellij, Visual Studio - used for writing and managing code across different languages and frameworks for" +
       "building projects and applications."
+    },
+    {
+      title: "Hardware side",
+      description: " Arduino UNO R3 Kit -> used to build small projects and learn about electronics and programming mircocontrollers."
     }
 
 ]

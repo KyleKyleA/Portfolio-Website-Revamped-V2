@@ -26,6 +26,13 @@
         "title": "Class Project - Pokemon Pocket Battles",
         "Description": "Pokemon card inspired game built using C#, .NET framework, JSON for data storage, and game engine Unity. The game allows players to battle against each other using their Pokemon card decks on a game board with different actions and effects.",
         "GitHub link": "https://github.com/KyleKyleA/OOP3-Project-Pokemon-Pocket-Battles"
+    },
+    {
+        "id": 5,
+        "image": "",
+        "title": "Arduino Projects",
+        "Description": "List of Arduino projects that I've built, experimented with, and inspire from other projects. The projects github includes all my Arduino as of right now, and will be updated as I build more projects.",
+        "GitHub link": "https://github.com/KyleKyleA/ArduinoProjects" 
     }
 
 
