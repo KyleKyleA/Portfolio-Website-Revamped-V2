@@ -29,7 +29,7 @@
     },
     {
         "id": 5,
-        "image": "",
+        "image": "/Arduino.jpg",
         "title": "Arduino Projects",
         "Description": "List of Arduino projects that I've built, experimented with, and inspire from other projects. The projects github includes all my Arduino as of right now, and will be updated as I build more projects.",
         "GitHub link": "https://github.com/KyleKyleA/ArduinoProjects" 
